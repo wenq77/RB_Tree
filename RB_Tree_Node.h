@@ -1,7 +1,7 @@
 #ifndef RB_TREE_NODE_H
 #define RB_TREE_NODE_H
 //#pragma once
-#include "stdafx.h"
+// #include "stdafx.h"
 template <class T>
 class RB_Tree_Node
 {

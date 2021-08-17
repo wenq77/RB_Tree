@@ -1,4 +1,4 @@
-#include "stdafx.h"
+// #include "stdafx.h"
 #include "RB_Tree.h"
 template <class T>
 RB_Tree<T>::RB_Tree(T Root_Data):Root_Node(NULL)
@@ -187,7 +187,8 @@ int RB_Tree<T>::Delete_Node(T delete_data)
 		if (color_tag == 0)
 		//如果删除的节点为黑色  则需调整红黑树
 		{
-			Fix_Tree_Delete(RB_Tree_Node<T>* temp_Node)
+			// Fix_Tree_Delete(RB_Tree_Node<T>* temp_Node);
+			Fix_Tree_Delete(temp_Node);
 		}
 	}
 	//未发现删除的数据  返回-1
